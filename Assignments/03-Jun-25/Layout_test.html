@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Layout</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="section logo">Logo</div>
+        <div class="nav">Navigation</div>
+        <div class="section header">Header / Banner</div>
+        <div class="content">
+            <div class="section sidebar">Side Bar</div>
+            <div class="section body">Body Area</div>
+        </div>
+        <div class="section footer">Footer</div>
+    </div>
+</body>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+            background-color: #ccc;
+        }
+        .nav {
+            background-color: #bbb;
+            text-align: center;
+        }
+        .header {
+            background-color: #aaa;
+            padding: 90px;
+        }
+        .content {
+            display: flex;
+            gap: 10px;
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #999;
+            padding: 100px;
+            
+        }
+        .body {
+            width: 70%;
+            background-color: #888;
+            padding: 100px;
+        }
+        .footer {
+            background-color: #777;
+        }
+        .logo {
+            background-color: #667;
+            padding-right: 70%;
+            
+        }
+    </style>
+</html>
